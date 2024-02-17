@@ -51,7 +51,7 @@ public class Mavin {
 
     @Test(priority = 3)
     public void testContactUsFormErrorMessage() throws InterruptedException {
-        // Navigate to Contact Us section and submit form with missing Message field
+       
 
 		
 		driver.findElement(By.xpath("//a[@class='button inverted is-active']")).click();
