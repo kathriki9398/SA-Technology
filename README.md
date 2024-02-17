@@ -79,7 +79,7 @@ public class Mavin {
 		driver.findElement(By.xpath("//button[contains(@data-loading-text,'Loading...')][normalize-space()='Submit']")).click();
 		
      WebElement errorMessage = driver.findElement(By.xpath("//p[normalize-space()='Sorry, there was an error submitting the form. Please try again.']"));
-       Assert.assertTrue(errorMessage.isDisplayed(), "Error message is not displayed for missing Message field");
+      Assert.assertTrue(errorMessage.isDisplayed(), "Sorry, there was an error submitting the form. Please try again.");
     }
 
     
